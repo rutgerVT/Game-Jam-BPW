@@ -5,10 +5,10 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float jumpForce = 5f;
-    public float moveSpeed = 20f;
     public bool isGrounded = false;
     public GameObject deathScreen;
     float jumpTimer = 0;
+    float controlTimer = 0;
     public int coins = 0;
     Rigidbody2D rb;
     //public GameManager gm;
@@ -33,8 +33,14 @@ public class PlayerController : MonoBehaviour
         {
             jumpTimer = .2f;
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            controlTimer = .7f;
+        }
+        else if(controlTimer > 0)
+        {
+            rb.AddForce(Vector2.up * jumpForce*60*Time.deltaTime);
         }
         jumpTimer -= Time.deltaTime;
+        controlTimer -= Time.deltaTime;
     }
 
     void Die()

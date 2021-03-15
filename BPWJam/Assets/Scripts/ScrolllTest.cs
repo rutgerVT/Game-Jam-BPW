@@ -14,6 +14,6 @@ public class ScrolllTest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += move*Time.deltaTime;
+        //transform.position += move*Time.deltaTime;
     }
 }

@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 2959378834665241697}
   - component: {fileID: 2959378834665241696}
   - component: {fileID: 2959378834665241699}
-  - component: {fileID: 2959378834665241703}
+  - component: {fileID: -3811969209156726621}
   m_Layer: 0
   m_Name: Chunk 4
   m_TagString: Ground
@@ -204,7 +204,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &2959378834665241703
+--- !u!114 &-3811969209156726621
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -213,10 +213,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2959378834665241698}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 354e39151c6a44a27b4707cca4b38953, type: 3}
+  m_Script: {fileID: 11500000, guid: 633286e229d94bb4586d9d828d6f4a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  move: {x: 5, y: 0, z: 0}
 --- !u!1 &4574753214354599512
 GameObject:
   m_ObjectHideFlags: 0

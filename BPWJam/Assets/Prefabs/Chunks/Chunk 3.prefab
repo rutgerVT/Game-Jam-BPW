@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1442965343950128833}
   m_Layer: 0
   m_Name: Quad (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 1442965344543766076}
   - component: {fileID: 1442965344543766077}
   - component: {fileID: 1442965344543766078}
-  - component: {fileID: 1442965344543766074}
+  - component: {fileID: -3973825228938034557}
   m_Layer: 0
   m_Name: Chunk 3
   m_TagString: Ground
@@ -220,7 +220,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1442965344543766074
+--- !u!114 &-3973825228938034557
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -229,10 +229,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1442965344543766079}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 354e39151c6a44a27b4707cca4b38953, type: 3}
+  m_Script: {fileID: 11500000, guid: 633286e229d94bb4586d9d828d6f4a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  move: {x: 5, y: 0, z: 0}
 --- !u!1 &5800921771605825999
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,7 +246,7 @@ GameObject:
   - component: {fileID: 9093309823048300299}
   m_Layer: 0
   m_Name: Quad (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -47,6 +47,7 @@ public class LevelGenerator : MonoBehaviour
             Debug.Log(nextPosition);
             GameObject newChunkObject = Instantiate(GameManager.Instance.GetRandomChunk(), nextPosition, Quaternion.identity);
             newChunkObject.GetComponent<LevelChunk>()?.SetVelocity(GameManager.Instance.chunkVelocity * directionalMultiplier);
+            //newChunkObject.transform.localScale *= directionalMultiplier;
             currentChunk = newChunkObject;
             
             yield return new WaitForSeconds(spawnInterval);

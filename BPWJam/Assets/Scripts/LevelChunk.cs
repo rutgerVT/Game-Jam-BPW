@@ -5,6 +5,7 @@ using UnityEngine;
 public class LevelChunk : MonoBehaviour
 {
     private float velocity;
+    //public float lifeTime;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +17,7 @@ public class LevelChunk : MonoBehaviour
     {
         transform.Translate(Vector3.right * velocity * Time.deltaTime);
 
-        if (transform.position.x >= 100.0f || transform.position.x <= -100.0f) { Destroy(gameObject); }
+        if (transform.position.x >= 200.0f || transform.position.x <= -200.0f) { Destroy(gameObject); }
     }
 
 
